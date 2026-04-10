@@ -7,7 +7,7 @@ class DBConnection {
         Connection conn = DriverManager.getConnection(
             "jdbc:mysql://localhost:3306/?useSSL=false&allowPublicKeyRetrieval=true",
             "root",
-            "WJ28@krhps"
+            "YOUR_PASSWORD"
         );
 
         Statement stmt = conn.createStatement();
@@ -19,7 +19,7 @@ class DBConnection {
         conn = DriverManager.getConnection(
             "jdbc:mysql://localhost:3306/studentdb?useSSL=false&allowPublicKeyRetrieval=true",
             "root",
-            "WJ28@krhps"
+            "YOUR_PASSWORD"
         );
 
         stmt = conn.createStatement();
